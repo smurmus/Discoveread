@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55F8C412E1BF8330D5104DA6 /* Pods_Discoveread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A1589132B0E83C1705DB33 /* Pods_Discoveread.framework */; };
 		70988D111D0CD2B100B39949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70988D101D0CD2B100B39949 /* AppDelegate.swift */; };
 		70988D131D0CD2B100B39949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70988D121D0CD2B100B39949 /* ViewController.swift */; };
 		70988D161D0CD2B100B39949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70988D141D0CD2B100B39949 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46A1589132B0E83C1705DB33 /* Pods_Discoveread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discoveread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70988D0D1D0CD2B100B39949 /* Discoveread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discoveread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70988D101D0CD2B100B39949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70988D121D0CD2B100B39949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		70988D2C1D0CD2B100B39949 /* DiscovereadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscovereadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70988D301D0CD2B100B39949 /* DiscovereadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscovereadUITests.swift; sourceTree = "<group>"; };
 		70988D321D0CD2B100B39949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807F12843D1229A707825866 /* Pods-Discoveread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discoveread.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Discoveread/Pods-Discoveread.debug.xcconfig"; sourceTree = "<group>"; };
+		E0946E684EC23745F155B4B6 /* Pods-Discoveread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discoveread.release.xcconfig"; path = "Pods/Target Support Files/Pods-Discoveread/Pods-Discoveread.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F8C412E1BF8330D5104DA6 /* Pods_Discoveread.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				70988D241D0CD2B100B39949 /* DiscovereadTests */,
 				70988D2F1D0CD2B100B39949 /* DiscovereadUITests */,
 				70988D0E1D0CD2B100B39949 /* Products */,
+				C24C14683CAA6A6A09498A15 /* Pods */,
+				C2817052037FDCF4F504BCBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = DiscovereadUITests;
 			sourceTree = "<group>";
 		};
+		C24C14683CAA6A6A09498A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807F12843D1229A707825866 /* Pods-Discoveread.debug.xcconfig */,
+				E0946E684EC23745F155B4B6 /* Pods-Discoveread.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2817052037FDCF4F504BCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46A1589132B0E83C1705DB33 /* Pods_Discoveread.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70988D351D0CD2B100B39949 /* Build configuration list for PBXNativeTarget "Discoveread" */;
 			buildPhases = (
+				0A53CF364CBD0E2CD1AB332F /* Check Pods Manifest.lock */,
 				70988D091D0CD2B000B39949 /* Sources */,
 				70988D0A1D0CD2B000B39949 /* Frameworks */,
 				70988D0B1D0CD2B000B39949 /* Resources */,
+				D8BB5B18C61A50014A5235EB /* Embed Pods Frameworks */,
+				D121D45725091B53F1E2C530 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					70988D0C1D0CD2B000B39949 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZQXWUAW7TP;
 					};
 					70988D201D0CD2B100B39949 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -250,6 +278,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A53CF364CBD0E2CD1AB332F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D121D45725091B53F1E2C530 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Discoveread/Pods-Discoveread-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BB5B18C61A50014A5235EB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Discoveread/Pods-Discoveread-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70988D091D0CD2B000B39949 /* Sources */ = {
@@ -397,23 +473,31 @@
 		};
 		70988D361D0CD2B100B39949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807F12843D1229A707825866 /* Pods-Discoveread.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Discoveread/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.smu.Discoveread;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smu.Discoveread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		70988D371D0CD2B100B39949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0946E684EC23745F155B4B6 /* Pods-Discoveread.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Discoveread/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.smu.Discoveread;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smu.Discoveread;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +566,7 @@
 				70988D371D0CD2B100B39949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70988D381D0CD2B100B39949 /* Build configuration list for PBXNativeTarget "DiscovereadTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +575,7 @@
 				70988D3A1D0CD2B100B39949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70988D3B1D0CD2B100B39949 /* Build configuration list for PBXNativeTarget "DiscovereadUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +584,7 @@
 				70988D3D1D0CD2B100B39949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
